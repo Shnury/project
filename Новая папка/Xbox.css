@@ -1,0 +1,27 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background: url(https://kartinkin.net/uploads/posts/2021-07/1627178704_5-kartinkin-com-p-zelenii-kosmicheskii-fon-krasivo-5.jpg);
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto+Condensed:ital,wght@1,700&display=swap');
+.body{
+  font-family: 'Open Sans', sans-serif;
+}
+.Xbox{
+border: 1px double #11ff00;
+  background-color: white;
+  width: 530px;
+   height: 440px;
+  border-radius: 20px;
+    font-size: 20px;
+  text-align: center;
+  padding: 20px; 
+   margin: auto;
+}
+.Xbox:hover{
+  background-color:#b3ffb4;
+   border: 5px double #5cb800;
+  cursor: pointer;
+  font-size: 23px;
+  transition: all 1s ;
+}

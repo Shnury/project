@@ -1,0 +1,126 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background: url(https://phonoteka.org/uploads/posts/2022-02/1645165656_1-phonoteka-org-p-foni-stim-nebo-6.jpg);
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto+Condensed:ital,wght@1,700&display=swap');
+.body{
+  font-family: 'Open Sans', sans-serif;
+}
+.box {
+  height: 40px;
+  width: 100px;
+  border: 1px double black;
+  background-color: #3859ff;
+  margin: 10px;
+  text-align: center;
+  color: black;
+  font-size: 25px;
+  border-radius: 10px;
+  padding: 20px;
+}
+.box1 {
+  height: 40px;
+  width: 100px;
+  border: 1px double black;
+  background-color: #59cd42;
+  margin: 10px;
+  text-align: center;
+  color: white; 
+  font-size: 25px;
+  border-radius: 10px;
+  padding: 20px;
+  font-weight: 20px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  align-items: center;
+}
+.video{
+ justify-content: center; 
+}
+a{
+color: #000000;  
+text-decoration: none;
+}
+.ps5spiderman{
+  border: 1px double #2800f0;
+  background-color: white;
+  width: 230px;
+   height: 340px;
+  border-radius: 20px;
+  margin: 200px;
+    font-size: 20px;
+  text-align: center;
+  padding: 18px;
+  color: black;
+}
+.god{
+  border: 1px double #2800f0;
+  background-color: white;
+  width: 230px;
+   height: 340px;
+  border-radius: 20px;
+    font-size: 20px;
+  text-align: center;
+  padding: 20px; 
+   margin: 800px;
+  margin-top:-580px ;
+}
+.CrashBandicoot{
+  border: 1px double #2800f0;
+  background-color: white;
+  width: 230px;
+   height: 340px;
+  border-radius: 20px;;
+    font-size: 20px;
+  text-align: center;
+  padding: 20px; 
+   margin: 1400px;
+  margin-top:-1185px ;
+}
+img{
+  width:180px;
+}
+
+.CrashBandicoot:hover{
+  background-color:#b3bfff;
+   border: 5px double #0008ff;
+  cursor: pointer;
+  font-size: 25px;
+  transition: all 1s ;
+}
+.god:hover{
+  background-color:#b3bfff;
+   border: 5px double #0033ff;
+  cursor: pointer;
+  font-size: 25px;
+  transition: all 1s ;
+}
+.ps5spiderman:hover{
+  background-color:#b3bfff;
+   border: 5px double #1e00ff;
+  cursor: pointer;
+  font-size: 25px;
+  transition: all 1s ;
+}
+.box:hover{
+  cursor: pointer;
+  font-size: 30px;
+  transition: all 1s ;
+}
+.box1:hover{
+  cursor: pointer;
+  font-size: 30px;
+  transition: all 1s ;
+}
+.h1{
+  color: white;
+   display: flex;
+  justify-content: center;
+  height: 200px;
+  align-items: center;
+  text-align: center;
+}

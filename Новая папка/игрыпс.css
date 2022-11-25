@@ -1,0 +1,27 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background: url(https://phonoteka.org/uploads/posts/2022-02/1645165656_1-phonoteka-org-p-foni-stim-nebo-6.jpg);
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto+Condensed:ital,wght@1,700&display=swap');
+.body{
+  font-family: 'Open Sans', sans-serif;
+}
+.gameps{
+  border: 1px double #2800f0;
+  background-color: white;
+  width: 630px;
+   height: 360px;
+  border-radius: 20px;
+    font-size: 20px;
+  text-align: center;
+  padding: 18px;
+  margin: auto;
+}
+.gameps:hover{
+  background-color:#b3bfff;
+   border: 5px double #0033ff;
+  cursor: pointer;
+  font-size: 25px;
+  transition: all 1s ;
+}
